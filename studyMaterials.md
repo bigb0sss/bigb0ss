@@ -6,4 +6,8 @@
 
 ## Modern Binary Exploitation - CSCI 4968
 * RPISEC/MBE: https://github.com/RPISEC/MBE 
+<br />
 
+## Reversing 101
+* Reverse Engineering for Beginners: https://www.begin.re/
+<br />
