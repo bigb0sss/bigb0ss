@@ -1,4 +1,4 @@
-**This is not my review I copied it from HTB forum. All credit is to the author
+**This is not my review I copied it from HTB forum. All credit is to the author (21y4d)
 
 A couple of months after I earned my OSCP, I knew that my next step was going to be OSWE.
 
