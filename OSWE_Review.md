@@ -1,3 +1,5 @@
+**This is not my review I copied it from HTB forum. All credit is to the author
+
 A couple of months after I earned my OSCP, I knew that my next step was going to be OSWE.
 
 For the past 6 moths or so I’ve been busy preparing for the Offensive Security Web Expert (OSWE) certificate. I’ve had this certification on my plan, and once it was announced for the public in 2019, I started preparing to enroll in its course. I couple of months ago I registered for the OSWE course "Advnaced Web Attacks and Exploitation - AWAE". Last week, I had my 48-hour OSWE exam, and this morning I was informed that I successfully passed the exam and earned OSWE.
