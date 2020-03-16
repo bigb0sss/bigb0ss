@@ -269,3 +269,6 @@ But for my next step, I think I may have to step back a bit and improve my blue 
 For now, though, I'll work on ranking up to Guru or higher, here on HTB :)
 
 Thanks a lot for taking the time to read my “detailed” OSWE review, you are awesome 
+
+https://z-r0crypt.github.io/blog/2020/01/22/oswe/awae-preparation/
+
