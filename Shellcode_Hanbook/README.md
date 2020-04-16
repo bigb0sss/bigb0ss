@@ -12,7 +12,7 @@
   * Project 2 - 10/30/19, 03/30/20 (Simple BOF) 
   * Project 3 - 12/02/19, 04/02/20 (BOF with Shellcode) - had to play around with the EIP (\x20\xF2\xFF\xBF)
   * Project 4 - 12/03/19, 04/14/20 (Vuln program BOF on copier() function)
-  * Project 5 - 12/03/19 (.asm --> nasm (compile) --> ld (linking))
+  * Project 5 - 12/03/19, 04/15/20 (.asm --> nasm (compile) --> ld (linking))
   * Project 6 - 01/06/19 (Format String BOF) - Good Exercise
   * Project 7 - 
   * Project 8 - 
