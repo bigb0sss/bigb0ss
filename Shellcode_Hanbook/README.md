@@ -48,4 +48,5 @@
 
 ## Reversing 101
 * Reverse Engineering for Beginners: https://www.begin.re/
+* Jacob Persi - https://www.youtube.com/channel/UCxMxlHWqP1P5g8iggTEG13Q
 <br />
