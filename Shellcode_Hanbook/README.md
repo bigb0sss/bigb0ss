@@ -6,6 +6,7 @@
   * 11/04/19 - Ch3 Video - Part1 & part2
   * 11/28/19 - Ch3 Book
   * 12/03/19 - Ch4 Video(Format String Bugs)
+  * 04/15/20 - Ch5 Video - Part1 & Part2
   <br />
 * Project & Exercises
   * Project 1 - 10/30/19 http://attack32direct.samsclass.info/p1x-winners.html
