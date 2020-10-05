@@ -1,3 +1,2 @@
-# bigb0ss Land
+# Land of Learning
 
-![Image description](https://github.com/bigb0sss/bigb0ss/blob/master/bigb0ss.png)
