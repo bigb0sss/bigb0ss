@@ -45,6 +45,6 @@ complex128 complex numbers with float64 real and imaginary parts
 
 
 ## Useful Resources
-* Golang fmt - https://golang.org/pkg/fmt/
+* Golang fmt - https://golang.org/pkg/fmt/ (Page 300 of 650)
 
 
