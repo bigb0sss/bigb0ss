@@ -21,5 +21,13 @@ func main() {
 	// strings.Join
 	// strings.Split
 	// strings.ReplaceAll
+	
+	// Converting Strings and Bytes
+	a := "bigb0ss"
+	b := []byte(a)
+	c := string(b)
+	fmt.Println(a)
+	fmt.Println(b)
+	fmt.Println(c)
 
 }
