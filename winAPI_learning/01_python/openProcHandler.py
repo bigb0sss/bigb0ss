@@ -23,7 +23,7 @@ PROCESS_ALL_ACCESS = (0x000F0000 | 0x00100000 | 0xFFF)
 # Setting Up The Params
 dwDesiredAccess = PROCESS_ALL_ACCESS
 bInheritHandle = False
-dwProcessId = pid # Replace This With Your Own!
+dwProcessId = pid 
 
 # Calling the Windows API Call
 response = k_handle.OpenProcess(dwDesiredAccess, bInheritHandle, dwProcessId)
@@ -34,7 +34,7 @@ response = k_handle.OpenProcess(dwDesiredAccess, bInheritHandle, dwProcessId)
 #
 error = k_handle.GetLastError()
 if error != 0:
-	print("[-] No AccessRight. Handle was not created.")
+    print("[-] No AccessRight. Handle was not created.")
     print("[-] Error Code: {0}".format(error))
 	exit(1)
    
