@@ -29,6 +29,9 @@ dwProcessId = pid # Replace This With Your Own!
 response = k_handle.OpenProcess(dwDesiredAccess, bInheritHandle, dwProcessId)
 
 # Check For Errors
+#
+# Search for error: https://docs.microsoft.com/en-us/windows/win32/debug/system-error-codes--0-499-
+#
 error = k_handle.GetLastError()
 if error != 0:
 	print("[-] No AccessRight. Handle was not created.")
