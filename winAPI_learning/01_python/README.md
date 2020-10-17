@@ -3,5 +3,5 @@
 | Name | WinAPI | WinDLL | Note |
 | :--- | :---: | :--- | :-- |
 | messageBox.py | MessageBoxW | User32.dll | |
-| openProcHandler.py | OpenProcess\ | Kernel32.dll | |
-                       test
+| openProcHandler.py | OpenProcess | Kernel32.dll | |
+| procKiller.py | FindWindowA, GetWindowThreadProcessId, OpenProcess, TerminateProcess | User32.dll, Kernel32.dll | |
