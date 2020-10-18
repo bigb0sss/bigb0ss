@@ -1,7 +1,7 @@
 # Python - WinAPI
 
 | | Name | WinAPI | WinDLL | Note |
-| :--- | :--- | :---: | :--- | :-- |
+| :--- | :--- | :--- | :--- | :-- |
 | 1 | messageBox.py | MessageBoxW | User32.dll | |
 | 2 | openProcHandler.py | OpenProcess | Kernel32.dll | |
 | 3 | procKiller.py | FindWindowA, GetWindowThreadProcessId, OpenProcess, TerminateProcess | User32.dll, Kernel32.dll | |
@@ -13,5 +13,5 @@ Tokens are static; therefore, we cannot add/delete but we can enable/disable the
 * https://docs.microsoft.com/en-us/windows/win32/secauthz/privilege-constants
 
 | | Privilege Value | Description | 
-| :--- | :--- | :---: |
+| :--- | :--- | :--- |
 | 1 | SeDebugPrivilege | Required to debug and adjust the memory of a process owned by another account. User Right: Debug programs. |
