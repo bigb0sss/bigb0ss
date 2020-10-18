@@ -14,4 +14,4 @@ Tokens are static; therefore, we cannot add/delete but we can enable/disable the
 
 | | Privilege Value | Description | 
 | :--- | :--- | :---: |
-| 1 | SeAssignPrimaryTokenPrivilege | Required to assign the primary token of a process. User Right: Replace a process-level token. |
+| 1 | SeDebugPrivilege | Required to debug and adjust the memory of a process owned by another account. User Right: Debug programs. |
