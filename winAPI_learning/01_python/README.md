@@ -10,6 +10,7 @@
 | 6 | openToken.py | FindWindowA, GetWindowThreadProcessId, OpenProcess, OpenProcessToken | User32.dll, Kernel32.dll | |
 | 7 | checkToeknPriv.py | LookUpSystemName, PrivilegeCheck | User32.dll, Kernel32.dll, Advapi32.dll | Check for the Token Privilege (e.g., SEDebugPrivilege) |
 | 8 | modifyTokenPriv.py | AdjustTokenPrivileges | User32.dll, Kernel32.dll, Advapi32.dll | Modify the Token Privilege (e.g., SEDebugPrivilege) |
+| 9 | impersonator.py | CreateProcessWithTokenW | User32.dll, Kernel32.dll, Advapi32.dll | 1) Find the Handle & Token for the given Windows Name, 2) Modify the Token SEDebugPrivilege Privilege if necessary, 3) Spawn a Process (cmd.exe) as the impersonated Token | 
 
 # Windows Token Privileges
 Tokens are static; therefore, we cannot add/delete but we can enable/disable the current privileges (set by default).
