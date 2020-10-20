@@ -8,7 +8,8 @@
 | 4 | createProc.py | CreateProcessW, PROCESS_INFORMATION, STARTUPINFOA | Kernel32.dll | Start a New Process (e.g., cmd.exe) |
 | 5 | dnsCacheEntry.py | DnsGetCacheDataTable | Kernel32.dll, DNSAPI.dll | Undocumented API |
 | 6 | openToken.py | FindWindowA, GetWindowThreadProcessId, OpenProcess, OpenProcessToken | User32.dll, Kernel32.dll | |
-| 7 | checkToeknPriv.py | LookUpSystemName, PrivilegeCheck | User32.dll, Kernel32.dll, Advapi32.dll | Check for the Tokep Privilege (e.g., SEDebugPrivilege) |
+| 7 | checkToeknPriv.py | LookUpSystemName, PrivilegeCheck | User32.dll, Kernel32.dll, Advapi32.dll | Check for the Token Privilege (e.g., SEDebugPrivilege) |
+| 8 | modifyTokenPriv.py | AdjustTokenPrivileges | User32.dll, Kernel32.dll, Advapi32.dll | Modify the Token Privilege (e.g., SEDebugPrivilege) |
 
 # Windows Token Privileges
 Tokens are static; therefore, we cannot add/delete but we can enable/disable the current privileges (set by default).
