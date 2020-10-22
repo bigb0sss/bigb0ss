@@ -2,7 +2,7 @@
 
 My learning path of Golang. My goal is to learn Go and create more adversary tools in Go. 
 
-## Black Hat Go - Books
+## Black Hat Go - Book
 * Building a binary with smaller size 
 ```
 $ go build -ldflags "-w -s"
