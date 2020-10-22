@@ -7,6 +7,14 @@ My learning path of Golang. My goal is to learn Go and create more adversary too
 ```
 $ go build -ldflags "-w -s"
 ```
+* Cross-compiling
+```
+* Linux
+$ GOOS="linux" GOARCH="amd64" go build project.go
+
+* Widnows
+$ GOOS="windows" GOARCH="amd64" go build project.go
+```
 
 ## Golang Crash Course - Videos
 ### YouTube 
