@@ -43,6 +43,14 @@ complex64 complex numbers with float32 real and imaginary parts
 complex128 complex numbers with float64 real and imaginary parts
 ```
 
+## Black Hat Go - Books
+* Building a binary with smaller size 
+```
+$ go build -ldflags "-w -s"
+```
+
+
+
 
 ## Useful Resources
 * Golang fmt - https://golang.org/pkg/fmt/ (Page 300 of 650)
