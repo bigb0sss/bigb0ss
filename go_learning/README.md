@@ -2,6 +2,12 @@
 
 My learning path of Golang. My goal is to learn Go and create more adversary tools in Go. 
 
+## Black Hat Go - Books
+* Building a binary with smaller size 
+```
+$ go build -ldflags "-w -s"
+```
+
 ## Golang Crash Course - Videos
 ### YouTube 
 * [Go / Golang Crash Course - Traversy Media](https://www.youtube.com/watch?v=SqrbIlUwR0U&t=1236s)
@@ -42,15 +48,6 @@ float64 IEEE-754 64-bit floating-point numbers
 complex64 complex numbers with float32 real and imaginary parts
 complex128 complex numbers with float64 real and imaginary parts
 ```
-
-## Black Hat Go - Books
-* Building a binary with smaller size 
-```
-$ go build -ldflags "-w -s"
-```
-
-
-
 
 ## Useful Resources
 * Golang fmt - https://golang.org/pkg/fmt/ (Page 300 of 650)
